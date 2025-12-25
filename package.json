@@ -1,0 +1,24 @@
+{
+  "name": "server-renewal-system",
+  "version": "1.0.0",
+  "description": "服务器续费管理系统",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "server",
+    "renewal",
+    "management"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^7.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
